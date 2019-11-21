@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/helloCpp.dir/main/main.cpp.o CMakeFiles/helloCpp.dir/main/01variable/variable.cpp.o  -o helloCpp 
