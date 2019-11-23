@@ -3,4 +3,4 @@ project(helloCpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(helloCpp main/main.cpp main/01variable/variable.cpp)
+add_executable(helloCpp main/main.cpp main/01variable/variable.cpp main/02function/function.cpp)

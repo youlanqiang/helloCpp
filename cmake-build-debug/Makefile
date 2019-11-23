@@ -150,6 +150,33 @@ main/01variable/variable.cpp.s:
 	$(MAKE) -f CMakeFiles/helloCpp.dir/build.make CMakeFiles/helloCpp.dir/main/01variable/variable.cpp.s
 .PHONY : main/01variable/variable.cpp.s
 
+main/02function/function.o: main/02function/function.cpp.o
+
+.PHONY : main/02function/function.o
+
+# target to build an object file
+main/02function/function.cpp.o:
+	$(MAKE) -f CMakeFiles/helloCpp.dir/build.make CMakeFiles/helloCpp.dir/main/02function/function.cpp.o
+.PHONY : main/02function/function.cpp.o
+
+main/02function/function.i: main/02function/function.cpp.i
+
+.PHONY : main/02function/function.i
+
+# target to preprocess a source file
+main/02function/function.cpp.i:
+	$(MAKE) -f CMakeFiles/helloCpp.dir/build.make CMakeFiles/helloCpp.dir/main/02function/function.cpp.i
+.PHONY : main/02function/function.cpp.i
+
+main/02function/function.s: main/02function/function.cpp.s
+
+.PHONY : main/02function/function.s
+
+# target to generate assembly for a file
+main/02function/function.cpp.s:
+	$(MAKE) -f CMakeFiles/helloCpp.dir/build.make CMakeFiles/helloCpp.dir/main/02function/function.cpp.s
+.PHONY : main/02function/function.cpp.s
+
 main/main.o: main/main.cpp.o
 
 .PHONY : main/main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main/01variable/variable.o"
 	@echo "... main/01variable/variable.i"
 	@echo "... main/01variable/variable.s"
+	@echo "... main/02function/function.o"
+	@echo "... main/02function/function.i"
+	@echo "... main/02function/function.s"
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"

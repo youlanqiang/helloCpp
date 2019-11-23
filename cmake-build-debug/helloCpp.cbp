@@ -87,6 +87,9 @@
 		<Unit filename="/home/youlanqiang/CLionProjects/helloCpp/main/01variable/variable.cpp">
 			<Option target="helloCpp"/>
 		</Unit>
+		<Unit filename="/home/youlanqiang/CLionProjects/helloCpp/main/02function/function.cpp">
+			<Option target="helloCpp"/>
+		</Unit>
 		<Unit filename="/home/youlanqiang/CLionProjects/helloCpp/main/main.cpp">
 			<Option target="helloCpp"/>
 		</Unit>
