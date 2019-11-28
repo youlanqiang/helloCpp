@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/youlanqiang/CLionProjects/helloCpp/main/01variable/variable.cpp" "/home/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/helloCpp.dir/main/01variable/variable.cpp.o"
-  "/home/youlanqiang/CLionProjects/helloCpp/main/02function/function.cpp" "/home/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/helloCpp.dir/main/02function/function.cpp.o"
-  "/home/youlanqiang/CLionProjects/helloCpp/main/main.cpp" "/home/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/helloCpp.dir/main/main.cpp.o"
+  "G:/clion-project/helloCpp/main/01variable/string.cpp" "G:/clion-project/helloCpp/cmake-build-debug/CMakeFiles/helloCpp.dir/main/01variable/string.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
