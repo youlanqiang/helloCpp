@@ -1,3 +1,7 @@
-G:/clion-project/helloCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-G:/clion-project/helloCpp/cmake-build-debug/CMakeFiles/helloCpp.dir
-G:/clion-project/helloCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/helloCpp.dir
+/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/main4.dir
+/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/main2.dir
+/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/main1.dir
+/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles/main3.dir

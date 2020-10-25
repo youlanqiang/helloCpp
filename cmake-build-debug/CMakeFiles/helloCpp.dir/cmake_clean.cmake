@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/helloCpp.dir/main/01variable/string.cpp.obj"
+  "CMakeFiles/helloCpp.dir/main/main.cpp.o"
+  "helloCpp"
   "helloCpp.pdb"
-  "helloCpp.exe"
-  "helloCpp.exe.manifest"
-  "libhelloCpp.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
