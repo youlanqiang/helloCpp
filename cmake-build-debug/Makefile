@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main5
+
+# Build rule for target.
+main5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main5
+.PHONY : main5
+
+# fast build rule for target.
+main5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/build
+.PHONY : main5/fast
+
+#=============================================================================
 # Target rules for targets named helloCpp
 
 # Build rule for target.
@@ -195,6 +208,33 @@ main3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/build
 .PHONY : main3/fast
 
+main/01variable/char.o: main/01variable/char.cpp.o
+
+.PHONY : main/01variable/char.o
+
+# target to build an object file
+main/01variable/char.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main/01variable/char.cpp.o
+.PHONY : main/01variable/char.cpp.o
+
+main/01variable/char.i: main/01variable/char.cpp.i
+
+.PHONY : main/01variable/char.i
+
+# target to preprocess a source file
+main/01variable/char.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main/01variable/char.cpp.i
+.PHONY : main/01variable/char.cpp.i
+
+main/01variable/char.s: main/01variable/char.cpp.s
+
+.PHONY : main/01variable/char.s
+
+# target to generate assembly for a file
+main/01variable/char.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main/01variable/char.cpp.s
+.PHONY : main/01variable/char.cpp.s
+
 main/01variable/sizeof.o: main/01variable/sizeof.cpp.o
 
 .PHONY : main/01variable/sizeof.o
@@ -228,7 +268,7 @@ main/01variable/string.o: main/01variable/string.cpp.o
 
 # target to build an object file
 main/01variable/string.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main/01variable/string.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/main/01variable/string.cpp.o
 .PHONY : main/01variable/string.cpp.o
 
 main/01variable/string.i: main/01variable/string.cpp.i
@@ -237,7 +277,7 @@ main/01variable/string.i: main/01variable/string.cpp.i
 
 # target to preprocess a source file
 main/01variable/string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main/01variable/string.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/main/01variable/string.cpp.i
 .PHONY : main/01variable/string.cpp.i
 
 main/01variable/string.s: main/01variable/string.cpp.s
@@ -246,7 +286,7 @@ main/01variable/string.s: main/01variable/string.cpp.s
 
 # target to generate assembly for a file
 main/01variable/string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main/01variable/string.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/main/01variable/string.cpp.s
 .PHONY : main/01variable/string.cpp.s
 
 main/01variable/variable.o: main/01variable/variable.cpp.o
@@ -343,6 +383,10 @@ help:
 	@echo "... main2"
 	@echo "... main3"
 	@echo "... main4"
+	@echo "... main5"
+	@echo "... main/01variable/char.o"
+	@echo "... main/01variable/char.i"
+	@echo "... main/01variable/char.s"
 	@echo "... main/01variable/sizeof.o"
 	@echo "... main/01variable/sizeof.i"
 	@echo "... main/01variable/sizeof.s"

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/youlanqiang/CLionProjects/helloCpp/main/01variable/string.cpp
+iostream
+/Users/youlanqiang/CLionProjects/helloCpp/main/01variable/iostream
+string
+-
+

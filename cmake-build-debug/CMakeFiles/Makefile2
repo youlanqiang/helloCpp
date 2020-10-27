@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/main5.dir/all
 all: CMakeFiles/helloCpp.dir/all
 all: CMakeFiles/main4.dir/all
 all: CMakeFiles/main2.dir/all
@@ -87,6 +88,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/main5.dir/clean
 clean: CMakeFiles/helloCpp.dir/clean
 clean: CMakeFiles/main4.dir/clean
 clean: CMakeFiles/main2.dir/clean
@@ -94,6 +96,33 @@ clean: CMakeFiles/main1.dir/clean
 clean: CMakeFiles/main3.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main5.dir
+
+# All Build rule for target.
+CMakeFiles/main5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target main5"
+.PHONY : CMakeFiles/main5.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/youlanqiang/CLionProjects/helloCpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main5.dir/rule
+
+# Convenience name for target.
+main5: CMakeFiles/main5.dir/rule
+
+.PHONY : main5
+
+# clean rule for target.
+CMakeFiles/main5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/clean
+.PHONY : CMakeFiles/main5.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/helloCpp.dir
