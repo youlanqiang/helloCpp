@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main7
+
+# Build rule for target.
+main7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main7
+.PHONY : main7
+
+# fast build rule for target.
+main7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/build
+.PHONY : main7/fast
+
+#=============================================================================
+# Target rules for targets named main6
+
+# Build rule for target.
+main6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main6
+.PHONY : main6
+
+# fast build rule for target.
+main6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/build
+.PHONY : main6/fast
+
+#=============================================================================
 # Target rules for targets named main5
 
 # Build rule for target.
@@ -207,6 +233,33 @@ main3: cmake_check_build_system
 main3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/build
 .PHONY : main3/fast
+
+main/01variable/bool.o: main/01variable/bool.cpp.o
+
+.PHONY : main/01variable/bool.o
+
+# target to build an object file
+main/01variable/bool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/main/01variable/bool.cpp.o
+.PHONY : main/01variable/bool.cpp.o
+
+main/01variable/bool.i: main/01variable/bool.cpp.i
+
+.PHONY : main/01variable/bool.i
+
+# target to preprocess a source file
+main/01variable/bool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/main/01variable/bool.cpp.i
+.PHONY : main/01variable/bool.cpp.i
+
+main/01variable/bool.s: main/01variable/bool.cpp.s
+
+.PHONY : main/01variable/bool.s
+
+# target to generate assembly for a file
+main/01variable/bool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/main/01variable/bool.cpp.s
+.PHONY : main/01variable/bool.cpp.s
 
 main/01variable/char.o: main/01variable/char.cpp.o
 
@@ -316,6 +369,33 @@ main/01variable/variable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/main/01variable/variable.cpp.s
 .PHONY : main/01variable/variable.cpp.s
 
+main/02function/cin.o: main/02function/cin.cpp.o
+
+.PHONY : main/02function/cin.o
+
+# target to build an object file
+main/02function/cin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/main/02function/cin.cpp.o
+.PHONY : main/02function/cin.cpp.o
+
+main/02function/cin.i: main/02function/cin.cpp.i
+
+.PHONY : main/02function/cin.i
+
+# target to preprocess a source file
+main/02function/cin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/main/02function/cin.cpp.i
+.PHONY : main/02function/cin.cpp.i
+
+main/02function/cin.s: main/02function/cin.cpp.s
+
+.PHONY : main/02function/cin.s
+
+# target to generate assembly for a file
+main/02function/cin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/main/02function/cin.cpp.s
+.PHONY : main/02function/cin.cpp.s
+
 main/02function/function.o: main/02function/function.cpp.o
 
 .PHONY : main/02function/function.o
@@ -384,6 +464,11 @@ help:
 	@echo "... main3"
 	@echo "... main4"
 	@echo "... main5"
+	@echo "... main6"
+	@echo "... main7"
+	@echo "... main/01variable/bool.o"
+	@echo "... main/01variable/bool.i"
+	@echo "... main/01variable/bool.s"
 	@echo "... main/01variable/char.o"
 	@echo "... main/01variable/char.i"
 	@echo "... main/01variable/char.s"
@@ -396,6 +481,9 @@ help:
 	@echo "... main/01variable/variable.o"
 	@echo "... main/01variable/variable.i"
 	@echo "... main/01variable/variable.s"
+	@echo "... main/02function/cin.o"
+	@echo "... main/02function/cin.i"
+	@echo "... main/02function/cin.s"
 	@echo "... main/02function/function.o"
 	@echo "... main/02function/function.i"
 	@echo "... main/02function/function.s"
