@@ -1,4 +1,0 @@
-D:\jetbrains-toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" G:\clion-project\helloCpp
--- Configuring done
--- Generating done
--- Build files have been written to: G:/clion-project/helloCpp/cmake-build-debug

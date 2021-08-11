@@ -1,3 +1,0 @@
-D:\jetbrains-toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\helloCpp.dir/objects.a
-D:\mingGW\mingw64\bin\ar.exe cr CMakeFiles\helloCpp.dir/objects.a @CMakeFiles\helloCpp.dir\objects1.rsp
-D:\mingGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\helloCpp.dir/objects.a -Wl,--no-whole-archive -o helloCpp.exe -Wl,--out-implib,libhelloCpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\helloCpp.dir\linklibs.rsp

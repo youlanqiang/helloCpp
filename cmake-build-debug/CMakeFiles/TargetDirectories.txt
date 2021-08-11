@@ -1,3 +1,0 @@
-G:/clion-project/helloCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-G:/clion-project/helloCpp/cmake-build-debug/CMakeFiles/helloCpp.dir
-G:/clion-project/helloCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
