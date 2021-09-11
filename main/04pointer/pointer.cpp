@@ -1,29 +1,32 @@
 //
-// Created by youla on 2021/8/9.
+// Created by youlaning on 2021/9/11.
 //
-#include "iostream"
+
+#include <iostream>
+
 using namespace std;
 
 int main()
 {
-    int oneInt = 1;
-    int &ref = oneInt;   // ref 是oneInt的引用，ref等价与oneInt
-    const int &refc = oneInt; // 定义常引用
-    ref = 2; // 修改了 ref也即修改了oneInt
 
-    cout<<"oneInt="<<oneInt<<","<<"ref="<<ref<<endl;
-    //oneInt=2,ref=2
-    cout<<"refc="<<refc<<endl;
-    //refc=2
+    int updates = 6;
+    int * p_updates;
+    p_updates = &updates;
 
-    oneInt = 3; // 修改oneInt也即修改了ref
-    cout<<"ref="<<ref<<endl;   //ref=3
-    cout<<"refc="<<refc<<endl; //refc=3
+    cout << "Values: updates = " << updates;  // 6
+    cout << ", *p_updates = " << *p_updates << endl; //6
 
-    int &ref2 = ref;
-    cout<<"ref2="<<ref2<<endl;// ref2=3
+    cout << "Addresses: &updates = " << &updates; // 地址
+    cout << ", p_update = " << p_updates << endl; // 地址
 
-    const int &ref3 = ref;
-    int &ref4 = const_cast<int &>(ref3);
+    *p_updates = *p_updates + 1;
+    cout << "Now updates = " << updates << endl;
+
+    /**
+     * int变量updates和指针变量p_updates只不过是同一枚硬币的两面。
+     * 变量 updates表示值，使用 & 来获取地址。
+     * 变量 p_updates 表示地址，使用 * 运算符号来获取值。
+     * 由于 p_updates指向updates，因此 *p_updates 和 updates完全等价.
+     */
     return 0;
 }

@@ -5,9 +5,16 @@
 
 #include <iostream>
 
+using namespace std;
+
 void println(char* str)
 {
     std::cout << str << std::endl;
+}
+
+// 定义带默认值的函数.
+void func(int a = 11, int b = 22, int c = 33){
+    cout << "a=" << a << " b=" << b << " c=" << c << endl;
 }
 
 int main()
